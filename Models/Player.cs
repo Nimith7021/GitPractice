@@ -11,7 +11,7 @@ namespace AgeChecker.Models
         public int Id { get; }
         public string Name { get; }
         public int Age { get; }
-
+        public int Year {get; }
         static int DEFAULT_AGE = 18;
 
         public Player(int id, string name)

@@ -17,7 +17,7 @@ namespace AgeChecker
             };
 
             Player maxPlayer = Player.WhoIsElder(players);
-
+            Console.WriteLine(Player with max age);
             Console.WriteLine(maxPlayer);
         }
     }
