@@ -6,17 +6,17 @@ namespace AgeChecker
     {
         static void Main(string[] args)
         {
-            Player[] playerssss = new Player[] {
+            Player[] playerDetails = new playerDetails[] {
 
-            new Players(100,"Adam",20),
-            new Player100(101,"Ajjjesh"),
-            new Player(102,"Damian",38),
-            new Plajjjyer(103,"Arlo",29),
-            new Player(104,"James",36),
+            new playerDetails(100,"Adam",20),
+            new playerDetails(101,"Ajesh"),
+            new playerDetails(102,"Damian",38),
+            new playerDetails(103,"Arlo",29),
+            new playerDetails(104,"James",36),
 
             };
 
-            Player minPlayer = Player.WhoIsElder(playejjjrs);
+            Player maxPlayer = playerDetails.WhoIsElder(players);
 
             Player maxPlayer = Player.WhoIsElder(players);
             Console.WriteLine(Player with max age);
